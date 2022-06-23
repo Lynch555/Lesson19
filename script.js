@@ -1,5 +1,6 @@
 const hello = document.getElementById('hello')
 const today = document.getElementById('today')
+const time = document.getElementById('time')
 const newYearDate = document.getElementById('new-year')
 
 let date = new Date();
@@ -55,7 +56,7 @@ setInterval(function () {
 },);  
 
 const daysToNewYear = function () {
-    let dateStop = new Date('1 januar 2023').getTime();
+    let dateStop = new Date('1 january 2023').getTime();
     let dateNow = new Date().getTime();
     let timeRemaining = (dateStop - dateNow) / 1000;
     let days = Math.floor(timeRemaining / 60 / 60 / 24);
