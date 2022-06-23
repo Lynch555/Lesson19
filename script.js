@@ -1,5 +1,3 @@
-'use strict';
-
 const hello = document.getElementById('hello')
 const today = document.getElementById('today')
 const newYearDate = document.getElementById('new-year')
